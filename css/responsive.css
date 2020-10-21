@@ -1,0 +1,350 @@
+@media only screen and (min-width: 200px) and (max-width: 767.98px) {
+	
+	
+	
+	
+	
+	
+	
+	div#mobile_menu {
+		display:block;
+	}
+	
+	
+	
+	
+	div#mobile_menu {
+		position: absolute;
+		top: 8px;
+		right: 15px;
+	}
+	
+	div#open_menu_bar {
+		position: absolute;
+		top: 8px;
+		right: 15px;
+		font-size:30px;
+		cursor:pointer;
+		color: white;
+	}	
+	
+	#open_menu_bar.close_button {
+		display:none;
+	}	
+	
+		div#close_menu_bar {
+		position: absolute;
+		top: 8px;
+		right: 15px;
+		font-size:30px;
+		cursor:pointer;
+		color: white;
+	}	
+	
+	#close_menu_bar.close_button {
+		display:none;
+	}
+	
+	
+	.main_menu{
+		position: absolute;
+		z-index:99999;
+	}
+	
+	
+	#menu{
+		display:none;
+	}
+	
+	
+	
+	.main_menu {
+		/* width: 100%; */
+		left: -94px;
+		top: 5px;
+		/* height: 600px; */
+	}
+	
+	.main_menu ul {
+		width: 70%;
+		background: gray;
+		height: 860px;
+		transition: all 1s;
+	}
+	
+	.main_menu ul li {
+		width: 100%;
+		background: green;
+		margin-bottom: 10px;
+	}
+	
+	.main_menu ul li a {
+		width: 100%;
+	}
+	
+	#navigation_menu{
+		display:block;
+		
+	}
+	
+	div#navigation_menu {
+		width: 202px;
+		background: black;
+		left: -200px;
+		height: 663px;
+		position: absolute;
+		top: 0px;
+	}
+	
+	div#navigation_menu ul {
+		padding: 0;
+		margin: 0;
+		text-decoration: none;
+		text-align: left;
+	}
+	
+	div#navigation_menu ul li {
+		margin: 0px;
+		padding: 10px;
+		cursor: pointer;
+		background: #000000;
+		padding-left: 50px;
+		transition:all 1s;
+	}
+	
+	div#navigation_menu ul li a {
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	div#navigation_menu ul li:hover {
+		background:#232323;
+		color:white;
+	}
+	
+	ul.submenu_ul {
+		position: absolute;
+		display: inline-block;
+		left: 186px;
+		width: 100px;
+		z-index: 9;
+		text-align: center;
+		top: 162px;
+	    list-style: none;
+	}	
+	
+	
+	#navigation_menu ul li ul li{
+		display: none;
+		/* margin: 5px 0px; */
+		margin-left: 14px;
+		width: 215px;
+		transition: all 1s;
+	}
+	
+	#navigation_menu ul li:hover ul li{
+		display:block;
+		color:white;
+	}
+	
+	
+	
+	.submenu_ul_li {
+		background: #3e4036;
+		width: 160px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	.home_title {
+    text-align: center;
+    position: absolute;
+    top: 214px;
+    display: grid;
+    color: white;
+    margin-left: 0px; 
+}
+
+
+
+.home_title h5 {font-size: 25px;margin-top: 27px;}
+
+.home_title p {
+    margin-bottom: 40px;
+    margin-top: -21px;
+    font-size: 16px;
+}
+	
+	
+	.col-md-4.center {
+		text-align: center;
+	}
+	
+	.home_boxs {
+		height: 400px;
+		width: 100%;
+		margin: auto;
+	}	
+	.home_box {
+		width: 100%;
+	}
+	.home_boxs_title {
+		width: 61%;
+	}	
+	
+	
+	
+	
+	
+	section#marketplaces_home::before{
+		width: 745px;
+	}
+	
+	
+	#analytics_home::before{
+		width: 745px;
+	}
+	
+	#training_home::before{
+		width: 745px;
+	}
+	#investor_home::before{
+		width: 745px;
+	}
+	
+	#contuct_home::before{
+		width: 745px;
+	}
+	
+	
+	.our_brand_box img {
+		width: 60%;
+	}
+	.about_page_title.add_style {
+		text-align: center;
+		margin: auto;
+	}
+	
+	.brand_directops_left {
+		text-align: center;
+	}
+	.our_brand_box {
+		text-align: center;
+	}
+	
+	.ebook_text {
+		text-align: center;
+	}
+	
+	.ecommerce_home_img {
+		margin-top: -230px;
+		text-align: center;
+	}
+	
+	.publishers_title {
+		text-align: center;
+		margin-top: 60px;
+	}
+	.publishers_col3_box {
+		text-align: center;
+	}
+	
+	.online_retail_img {
+		text-align: center;
+	}
+	
+	
+	
+	section#ecommerce_home::before {
+		content: "";
+		width: 400px;
+		height: 400px;
+		position: absolute;
+		background: linear-gradient(red, #d2d227);
+		top: 155px;
+		border-bottom-right-radius: 503px;
+		right: 200px;
+		transform: rotate(45deg);
+		border-top-left-radius: 500px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.marketplaces_home_text {
+		text-align: center;
+		margin-left: 0px;
+	}
+	
+	.all_Channels_img img {
+		width: 55%;
+		margin-top: -78px;
+	}
+	
+	.all_Channels_img {
+		text-align: center;
+	}
+	
+	.all_Channels_title {
+		margin-bottom: 45px;
+	}
+	
+	
+	
+	
+	.analytics_home_text {
+		margin-left: 0px;
+	}
+	
+	
+	.training_home_text {
+		margin-left: 0px;
+	}
+	
+	
+	
+	
+	.investor_home_text {
+		margin-left: 0px;
+	}
+	
+	
+	.contuct_home_text {
+		margin-left: 0px;
+	}
+	
+	.robot {
+		text-align: center;
+		margin-top: -115px;
+	}
+	
+	.form_right_button_box {
+		text-align: center;
+		margin: -30px 0px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+}
